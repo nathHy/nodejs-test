@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/whitechdevs/nodejs-test.git",
+  "author": "Nathan <nathan.hyman@coatesgroup.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "knex": "^0.14.6",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^23.1.0"
+  }
+}
