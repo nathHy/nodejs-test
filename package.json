@@ -6,7 +6,8 @@
   "author": "Nathan <nathan.hyman@coatesgroup.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --collectCoverage src/"
+    "test": "jest --collectCoverage src/",
+    "docker-test": "docker run --rm nathan1234/node-graphql-product:latest npm run test"
   },
   "dependencies": {
     "express": "^4.16.3",
