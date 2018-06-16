@@ -111,7 +111,7 @@ describe('product model', () => {
   });
   describe('delete', () => {
     describe('when input is valid', () => {
-      let updatedProd, input;
+      let input;
       beforeEach(() => {
         input = { id: 4 };
         db.delete.mockReturnValueOnce(Promise.resolve());

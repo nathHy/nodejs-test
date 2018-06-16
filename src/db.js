@@ -8,7 +8,7 @@ const PASSWORD = process.env.MYSQL_PASSWORD || 'root';
 
 const DEBUG = false;
 
-console.log(`connecting to ${HOST} with ${USER}/${PASSWORD}`)
+console.log(`connecting to ${HOST} with ${USER}/${PASSWORD}`);
 
 const db = knex({
   client: 'mysql',
