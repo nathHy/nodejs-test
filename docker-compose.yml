@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   api:
-    build: .
+    image: nathan1234/node-graphql-product:latest
     environment:
       PORT: 3000
       HOST: mysql
@@ -13,5 +13,6 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: graphql
     ports:
       - 3306:3306

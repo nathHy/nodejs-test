@@ -11,5 +11,6 @@ COPY yarn.lock  yarn.lock
 RUN yarn
 
 COPY src src
+COPY db-schema.sql db-schema.sql
 
 CMD ["node", "src/index.js"]
