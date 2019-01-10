@@ -1,4 +1,4 @@
-# Whitech Developer Test
+# Developer Test
 
 > A simple test to show us how awesome you are!
 
